@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+
+    <div class="flex">
+      <div class="logo">
+          Tomoaki's Portfolio
+          
+      </div>
+      <div class="btn">
+        <a href="#top"><div class="btn-child">TOP</div></a>
+        <a href="#profile"><div class="btn-child">PROFILE</div></a>
+        <a href="#service"><div class="btn-child">SERVICE</div></a>
+        <a href="#works"><div class="btn-child">WORKS</div></a>
+        <a href="#contact"><div class="btn-child">CONTACT</div></a>
+      </div>
+      <!-- ------------------ハンバーガー--------------->
+      <div class="hbg-logo">
+        <span class="material-icons" id="open">menu</span>
+        <span class="material-icons" id="close">close</span>
+      </div>
+      
+    </div>
+
+  </header>
+
+  <!-- ------------------ハンバーガー--------------->
+  <div class="hidden" id="hidden">
+    <div class="nav" id="nav">
+    <ul class="menulist">
+      <a href="#" class="link"><li>--- MENU ---</li></a>
+      <a href="#profile" class="link"><li>PROFILE</li></a>
+      <a href="#service" class="link"><li>SERVICE</li></a>
+      <a href="#works" class="link"><li>WORKS</li></a>
+      <a href="#contact" class="link"><li>CONTACT</li></a>
+    </ul>
+  </div>
+  </div>
+  
+  
+<main>
+  <!-- トップ -->
+  <div class="top">
+    <h1 class="fade">Welcome to <br>
+        My Portfolio.</h1>
+    <h6 class="fade">
+      Welcome to <br>
+        My Portfolio.
+    </h6>
+  </div>
+  
+<!-- プロフィール -->
+<div class="content" id="profile">
+  <div class="topic">
+    <h2>PROFILE</h2>
+    <div class="align">
+      <img class="profileimg" src="img/icon.jpg" alt="">
+    </div>
+    <h3>Tomoaki Asano</h3>
+      <p>1997年兵庫県神戸市生まれ。関西大学経済学部在学中。趣味はFx取引で、休日はだいたいカフェで勉強してます。Javascriptを主に扱うフロントエンドエンジニアです。犬派。</p>
+  </div>
+</div>
+
+<!-- ------------------------サービス-------------------------- -->
+<div class="content bg" id="service">
+  <div class="topic">
+    <h2>SERVICE</h2>
+    <div class="pearentflex">
+        <div class="flex">
+          <div class="align">
+            <img class="servicelogo servicelogopadding" src="img/hp.png" alt="">
+          </div> 
+          <h5>HP・LP制作</h5>
+          <p>ヒアリングを元にお客様の目的に沿ったホームページ（HP）、ランディングページ（LP）を制作いたいます。各デバイス幅に合わせてデザインするレスポンジブ化や、サイト修正も対応可能です。</p>
+        </div>
+        <div class="flex">
+          <div class="align">
+            <img class="servicelogo servicelogopadding" src="img/pg.png" alt="">
+          </div>
+          <h5>WEBアプリ制作</h5>
+          <p>Javascriptやその他周辺技術、CSSアニメーションを用いて動的なWEBアプリケーション制作のフロントエンド部分を担当します。</p>
+        </div>
+        <div class="flex">
+          <div class="align">
+            <img class="servicelogo servicelogopadding" src="img/ios.png" alt="">
+            <!-- <i class="fab fa-apple"></i> -->
+          </div>
+          <h5>iOSアプリ制作</h5>
+          <p>React Nativeを用いたiOSアプリの制作を担当します。</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- -----------------------ワークス-------------------------- -->
+<div class="content" id="works">
+  <div class="topic">
+    <div class="works">
+      <h2>WORKS</h2>
+
+     <div class="flex">
+        <a href="https://tomoaki-a.github.io/calendar/" target="_blank">
+          <div class="align"><img src="img/cal.png" alt=""></div> 
+        </a>
+          <a href="https://tomoaki-a.github.io/timer/" target="_blank">
+            <div class="align"><img src="img/stopwatch.png" alt=""></div> 
+          </a>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+<!-- コンタクト -->
+  <div class="content bg" id="contact">
+  <div class="topic">
+    <h2>CONTACT</h2>
+    <div class="form">
+      <h7>お名前<span>*</span></h7>
+      <p><input type="text" placeholder="お名前"></p>
+      <h7>メールアドレス<span>*</span></h7>
+      <p><input type="text" placeholder="example@mail.co.jp"></p>
+      <h7>お問い合わせ内容<span>*</span></h7>
+      <p><textarea name="" id="" cols="30" rows="10"placeholder="ご自由にご記載ください。"></textarea></p>
+      <div class="align">
+        <button>送信する</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+  <p class="footer">©︎Tomoaki Asano 2020</p>
+</footer>
+  <script src="js/main.js"></script> 
+</body>
+
+</html>
