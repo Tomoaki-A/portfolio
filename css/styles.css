@@ -257,6 +257,14 @@ h7 {
   @keyframes fadeIn {
     display: none;
   } 
+  
+  .topic p {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  
   /* ------------------------ハンバーガー-------------------------- */
 
   .btn{
